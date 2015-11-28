@@ -17,7 +17,7 @@ android:keyHeight="60dp" >
     <Key android:codes="56" android:keyLabel="8"/>
     <Key android:codes="57" android:keyLabel="9"/>
     <Key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right"/>
-
+</Row>
     <Row>
         <Key android:codes='0x0635' android:keyLabel="ص"     android:keyEdgeFlags="left"/>
         <Key android:codes="119" android:keyLabel="w"/>
@@ -61,5 +61,5 @@ android:keyHeight="60dp" >
         <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true"/>
         <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
     </Row>
-</Row>
+
 </Keyboard>
