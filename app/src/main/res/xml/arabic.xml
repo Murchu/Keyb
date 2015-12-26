@@ -3,7 +3,7 @@
     android:keyWidth="10%p"
     android:horizontalGap="0px"
     android:verticalGap="0px"
-    android:keyHeight="40dp" >
+    android:keyHeight="50dp" >
 
     <Row>
         <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
@@ -12,7 +12,7 @@
         <Key android:codes="52" android:keyLabel="4"/>
         <Key android:codes="53" android:keyLabel="5"/>
         <Key android:codes="54" android:keyLabel="6"/>
-        <Key android:codes="55" android:keyLabel="7"/>
+        <Key android:codes="55" android:keyLabel="77"/>
         <Key android:codes="56" android:keyLabel="8"/>
         <Key android:codes="57" android:keyLabel="9"/>
         <Key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right"/>
@@ -21,7 +21,7 @@
 
             <Key android:codes='0x0636' android:keyLabel="ض" android:keyEdgeFlags="left"/>
             <Key android:codes="0x0635" android:keyLabel="ص"/>
-            <Key android:codes="0X0642" android:keyLabel="ق"/>
+            <Key android:codes="0x0642" android:keyLabel="ق"/>
             <Key android:codes="0x641" android:keyLabel="ف"/>
             <Key android:codes="0x063A" android:keyLabel="غ"/>
             <Key android:codes="0x0639" android:keyLabel="ع"/>
