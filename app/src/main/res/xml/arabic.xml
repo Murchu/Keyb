@@ -10,7 +10,7 @@
         <Key android:codes="52" android:keyLabel="4"/>
         <Key android:codes="53" android:keyLabel="5"/>
         <Key android:codes="54" android:keyLabel="6"/>
-        <Key android:codes="55" android:keyLabel="72"/>
+        <Key android:codes="55" android:keyLabel="7"/>
         <Key android:codes="56" android:keyLabel="8"/>
         <Key android:codes="57" android:keyLabel="9"/>
         <Key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right"/>
@@ -56,7 +56,6 @@
         <Key android:codes="1608" android:popupCharacters="ؤ" android:keyLabel="و" />
         <Key android:codes="1577" android:keyLabel="ة" />
         <Key android:codes="1579" android:keyEdgeFlags="right" android:keyLabel="ث" />
-        <Key android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" />
     </Row>
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
