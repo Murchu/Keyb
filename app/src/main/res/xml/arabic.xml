@@ -19,7 +19,7 @@
 
     <Row android:keyWidth="10.000002%p">
         <Key android:codes="1590" android:popupCharacters="ًٌٍَُِّْ" android:keyEdgeFlags="left" android:keyLabel="ض" />
-        <Key android:codes="1589"  android:popupCharacters="§ßśŝšș" android:keyLabel="ص" />
+        <Key android:codes="1589"  android:popupCharacters="xxx" android:keyLabel="ص" />
         <Key android:codes="1602" android:keyLabel="ق" />
         <Key android:codes="1601" android:keyLabel="ف" />
         <Key android:codes="1594" android:keyLabel="غ" />
