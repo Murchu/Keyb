@@ -55,8 +55,9 @@
         <Key android:codes="1585" android:keyLabel="ر" />
         <Key android:codes="1608" android:popupCharacters="ؤ" android:keyLabel="و" />
         <Key android:codes="1577" android:keyLabel="ة" />
-        <Key android:codes="1579" android:keyEdgeFlags="right" android:keyLabel="ث" />
+        <Key android:codes="1579"  android:keyLabel="ث" />
     </Row>
+
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
         <Key android:codes="47" android:keyLabel="/" android:keyWidth="10%p" />
