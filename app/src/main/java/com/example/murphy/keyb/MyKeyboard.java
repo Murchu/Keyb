@@ -22,32 +22,6 @@ public class MyKeyboard extends InputMethodService
     private KeyboardView mInputView;
 
 
-
-    @Override
-    public View onCreateInputView() {
-        if (mInputView != null) mInputView.onViewNotRequired();
-        mInputView = null;
-
-        GCUtils.getInstance().performOperationWithMemRetry(TAG,
-                new MemRelatedOperation() {
-                    public void operation() {
-                        mInputView = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard, null);
-                    }
-                }, true);
-        // resetting token users
-        mOptionsDialog = null;
-
-        mKeyboardSwitcher.setInputView(mInputView);
-        mInputView.setOnKeyboardActionListener(this);
-
-        mDistinctMultiTouch = mInputView.hasDistinctMultitouch();
-
-        return mInputView;
-    }
-
-
-
-
     @Override
     public View onCreateInputView() {
         kv = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard, null);
