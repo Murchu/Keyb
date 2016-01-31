@@ -19,40 +19,38 @@ android:keyHeight="60dp" >
     <Key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right"/>
 </Row>
     <Row>
-        <Key android:codes='0x0635' android:keyLabel="ص"     android:keyEdgeFlags="left"/>
-        <Key android:codes="119" android:keyLabel="w"/>
-        <Key android:codes="101" android:keyLabel="e"/>
-        <Key android:codes="114" android:keyLabel="r"/>
-        <Key android:codes="116" android:keyLabel="t"/>
-        <Key android:codes="121" android:keyLabel="y"/>
-        <Key android:codes="117" android:keyLabel="u"/>
-        <Key android:codes="105" android:keyLabel="i"/>
-        <Key android:codes="111" android:keyLabel="o"/>
-        <Key android:codes="112" android:keyLabel="p" android:keyEdgeFlags="right"/>
+        <Key android:codes='0x05E5' android:keyLabel="ץ" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x05E7" android:keyLabel="ק"/>
+        <Key android:codes="0x05D3" android:keyLabel="ר"/>
+        <Key android:codes="0x05D0" android:keyLabel="א"/>
+        <Key android:codes="0x05D8" android:keyLabel="ט"/>
+        <Key android:codes="0x05D9" android:keyLabel="י"/>
+        <Key android:codes="0x05DA" android:keyLabel="ו"/>
+        <Key android:codes="0x05DF" android:keyLabel="ם" />
+        <Key android:codes="0x05E4" android:keyLabel="פ"  android:keyEdgeFlags="right"/>
+
     </Row>
     <Row>
-        <Key android:codes='0x05E5' android:keyLabel="מ" android:keyEdgeFlags="left"/>
-        <Key android:codes="115" android:keyLabel="s"/>
-        <Key android:codes="100" android:keyLabel="d"/>
-        <Key android:codes="102" android:keyLabel="f"/>
-        <Key android:codes="103" android:keyLabel="g"/>
-        <Key android:codes="104" android:keyLabel="h"/>
-        <Key android:codes="106" android:keyLabel="j"/>
-        <Key android:codes="107" android:keyLabel="k"/>
-        <Key android:codes="108" android:keyLabel="l"/>
-        <Key android:codes="35,64" android:keyLabel="\# \@" android:keyEdgeFlags="right"/>
+        <Key android:codes='0x05E9' android:keyLabel="ש"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0x05D3" android:keyLabel="ד"/>
+        <Key android:codes="0x05D2" android:keyLabel="ג"/>
+        <Key android:codes="0x05DB" android:keyLabel="כ"/>
+        <Key android:codes="0x05E2" android:keyLabel="ע"/>
+        <Key android:codes="0x05D9" android:keyLabel="י"/>
+        <Key android:codes="0x05D7" android:keyLabel="ח"/>
+        <Key android:codes="0x05DC" android:keyLabel="ל"/>
+        <Key android:codes="0x05DA" android:keyLabel="ך"/>
+        <Key android:codes="0x05E3" android:keyLabel="ף" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="-1" android:keyLabel="CAPS" android:keyEdgeFlags="left"/>
-        <Key android:codes="122" android:keyLabel="z"/>
-        <Key android:codes="120" android:keyLabel="x"/>
-        <Key android:codes="99" android:keyLabel="c"/>
-        <Key android:codes="118" android:keyLabel="v"/>
-        <Key android:codes="98" android:keyLabel="b"/>
-        <Key android:codes="110" android:keyLabel="n"/>
-        <Key android:codes="109" android:keyLabel="m"/>
-        <Key android:codes="46" android:keyLabel="."/>
-        <Key android:codes="63,33,58" android:keyLabel="\? ! :" android:keyEdgeFlags="right"/>
+        <Key android:codes="0x05D6" android:keyLabel="ז" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x05E1" android:keyLabel="ס"/>
+        <Key android:codes="0x05D1" android:keyLabel="ב"/>
+        <Key android:codes="0x05D4" android:keyLabel="ה"/>
+        <Key android:codes="0x05E0" android:keyLabel="נ"/>
+        <Key android:codes="0x05DE" android:keyLabel="מ"/>
+        <Key android:codes="0x05E6" android:keyLabel="צ"/>
+        <Key android:codes="0x05EA" android:keyLabel="ת" android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p"  android:keyEdgeFlags="left"/>

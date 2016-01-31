@@ -25,7 +25,7 @@ public class MyKeyboard extends InputMethodService
     @Override
     public View onCreateInputView() {
         kv = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard, null);
-        keyboard = new Keyboard(this, R.xml.arabic);
+        keyboard = new Keyboard(this, R.xml.hebrew);
         kv.setKeyboard(keyboard);
         kv.setOnKeyboardActionListener(this);
         return kv;
