@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android">
-    <Row android:rowEdgeFlags="top">
-        <!-- ëęē€ -->
-        <Key android:codes="235" android:keyEdgeFlags="left"/>
-        <Key android:codes="281"/>
-        <Key android:codes="275"/>
-        <Key android:codes="8364" android:keyEdgeFlags="right"/>
+    <Row>
+        <Key android:codes="0x05D3" android:keyLabel="ר" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x05D0" android:keyLabel="א"/>
+        <Key android:codes="0x05D8" android:keyLabel="ט"/>
+        <Key android:codes="0x05D9" android:keyLabel="י" android:keyEdgeFlags="right"/>
     </Row>
-    <Row android:rowEdgeFlags="bottom">
-        <!-- 3èéê -->
-        <Key android:codes="51" android:keyEdgeFlags="left"/>
-        <Key android:codes="232"/>
-        <Key android:codes="233"/>
-        <Key android:codes="234" android:keyEdgeFlags="right"/>
+    <Row>
+        <Key android:codes="0x05D3" android:keyLabel="ר" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x05D0" android:keyLabel="א"/>
+        <Key android:codes="0x05D8" android:keyLabel="ט"/>
+        <Key android:codes="0x05D9" android:keyLabel="י" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>
