@@ -2,6 +2,7 @@
 <Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+
     // Number Row
     <Row>
         <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
@@ -17,7 +18,7 @@
      </Row>
 
 
-    <Row android:keyWidth="10.000002%p">
+    <Row android:keyWidth="10.000002%p" android:keyboardMode="@xml/integer/key">
         <Key android:codes="1590" android:popupCharacters="ًٌٍَُِّْ" android:keyEdgeFlags="left" android:keyLabel="ض" />
         <Key android:codes="1589"  android:popupCharacters="xxx" android:keyLabel="ص" />
         <Key android:codes="1602" android:keyLabel="ق" />
