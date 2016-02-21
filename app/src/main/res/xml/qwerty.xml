@@ -4,9 +4,9 @@
 
 
     <Row android:rowEdgeFlags="top">
-        <Key android:codes="-2" android:keyLabel="Arabic" android:keyWidth="33%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="-2" android:keyLabel="العربية" android:keyWidth="33%p"  android:keyEdgeFlags="left"/>
         <Key android:codes="-6" android:keyLabel="English" android:keyWidth="33%p" />
-        <Key android:codes="-4" android:keyLabel="Hebrew" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="-4" android:keyLabel="עִברִית" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
     </Row>
 
 
