@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="10%p"
-    android:horizontalGap="0px"
-    android:verticalGap="0px"
-    android:keyHeight="60dp" >
+<Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
 
     <Row android:rowEdgeFlags="top">
-        <Key android:codes="44" android:keyLabel="Arabic" android:keyWidth="33%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="47" android:keyLabel="English" android:keyWidth="33%p" />
+        <Key android:codes="-2" android:keyLabel="Arabic" android:keyWidth="33%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="-6" android:keyLabel="English" android:keyWidth="33%p" />
         <Key android:codes="-4" android:keyLabel="Hebrew" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
     </Row>
 
@@ -28,7 +25,7 @@
     </Row>
 
     <Row>
-        <Key android:codes='0x0635' android:keyLabel="ص"     android:keyEdgeFlags="left"/>
+        <Key android:codes='113' android:keyLabel="q" android:keyEdgeFlags="left"/>
         <Key android:codes="119" android:keyLabel="w"/>
         <Key android:codes="101" android:keyLabel="e"/>
         <Key android:codes="114" android:keyLabel="r"/>
