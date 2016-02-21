@@ -7,6 +7,11 @@ android:verticalGap="0px"
 android:keyHeight="60dp" >
 
 
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="44" android:keyLabel="Arabic" android:keyWidth="33%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="47" android:keyLabel="English" android:keyWidth="33%p" />
+        <Key android:codes="-4" android:keyLabel="Hebrew" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
+    </Row>
 <Row>
     <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
     <Key android:codes="50" android:keyLabel="2"/>

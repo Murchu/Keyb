@@ -3,6 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="44" android:keyLabel="Arabic" android:keyWidth="33%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="47" android:keyLabel="English" android:keyWidth="33%p" />
+        <Key android:codes="-4" android:keyLabel="Hebrew" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
+    </Row>
+
     // Number Row
     <Row>
         <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
@@ -18,7 +24,7 @@
      </Row>
 
 
-    <Row android:keyWidth="10.000002%p" android:keyboardMode="@xml/integer/key">
+    <Row android:keyWidth="10.000002%p" >
         <Key android:codes="1590" android:popupCharacters="ًٌٍَُِّْ" android:keyEdgeFlags="left" android:keyLabel="ض" />
         <Key android:codes="1589"  android:popupCharacters="xxx" android:keyLabel="ص" />
         <Key android:codes="1602" android:keyLabel="ق" />

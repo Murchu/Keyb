@@ -7,7 +7,6 @@ package com.example.murphy.keyb;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
-import android.media.AudioManager;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
@@ -15,26 +14,19 @@ import android.view.inputmethod.InputConnection;
 public class MyKeyboard extends InputMethodService
         implements KeyboardView.OnKeyboardActionListener{
 
-    private KeyboardView cKeyBoardView;
+    private KeyboardView kv;
     private Keyboard keyboard;
 
     private boolean caps = false;
     private KeyboardView mInputView;
 
 
-
-
-
-
     @Override
     public View onCreateInputView() {
-        cKeyBoardView = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard, null);
-        keyboard = new Keyboard(this, R.xml.arabic);
-        cKeyBoardView.setOnKeyboardActionListener(this);
-        return cKeyBoardView;
+        kv = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard, null);
+        switchKeyboard(R.xml.arabic);
+        return kv;
     }
-
-
 
     @Override
     public void onPress(int primaryCode) {
@@ -48,20 +40,17 @@ public class MyKeyboard extends InputMethodService
 
     @Override
     public void onKey(int primaryCode, int[] keyCodes) {
-
-      /* InputConnection ic = getCurrentInputConnection();
-
-        int cKeyboardState = R.integer.keyboard_qwerty;
-
+        InputConnection ic = getCurrentInputConnection();
 
         switch (primaryCode){
-            case Keyboard.KEYCODE_ALT:
+            case Keyboard.KEYCODE_DELETE:
+                switchKeyboard(R.xml.qwerty);
                 ic.deleteSurroundingText(1, 0);
                 break;
             case Keyboard.KEYCODE_SHIFT:
                 caps = !caps;
                 keyboard.setShifted(caps);
-                cKeyBoardView.invalidateAllKeys();
+                kv.invalidateAllKeys();
                 break;
             case Keyboard.KEYCODE_DONE:
                 ic.sendKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN, KeyEvent.KEYCODE_ENTER));
@@ -75,11 +64,16 @@ public class MyKeyboard extends InputMethodService
         }
 
 
-*/
-        if( primaryCode == Keyboard.KEYCODE_DELETE ) {
-            keyboard = new Keyboard(this, R.integer.keyboard_arabic);
-            cKeyBoardView.setKeyboard(keyboard);
-        }
+
+
+
+
+    }
+
+    private void switchKeyboard(int keyboardRes) {
+        keyboard = new Keyboard(this, keyboardRes);
+        kv.setKeyboard(keyboard);
+        kv.setOnKeyboardActionListener(this);
     }
 
     @Override
@@ -107,4 +101,3 @@ public class MyKeyboard extends InputMethodService
 
     }
 }
-
