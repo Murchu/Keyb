@@ -43,8 +43,16 @@ public class MyKeyboard extends InputMethodService
         InputConnection ic = getCurrentInputConnection();
 
         switch (primaryCode){
-            case Keyboard.KEYCODE_DELETE:
+            case Keyboard.KEYCODE_MODE_CHANGE:
+                switchKeyboard(R.xml.arabic);
+                break;
+            case Keyboard.KEYCODE_ALT:
                 switchKeyboard(R.xml.qwerty);
+                break;
+           // case Keyboard.KEYCODE_MODE_CHANGE:
+           //     switchKeyboard(R.xml.hebrew);
+            //    break;
+            case Keyboard.KEYCODE_DELETE:
                 ic.deleteSurroundingText(1, 0);
                 break;
             case Keyboard.KEYCODE_SHIFT:
@@ -62,10 +70,6 @@ public class MyKeyboard extends InputMethodService
                 }
                 ic.commitText(String.valueOf(code), 1);
         }
-
-
-
-
 
 
     }
