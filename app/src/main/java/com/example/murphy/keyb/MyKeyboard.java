@@ -15,20 +15,23 @@ import android.view.inputmethod.InputConnection;
 public class MyKeyboard extends InputMethodService
         implements KeyboardView.OnKeyboardActionListener{
 
-    private KeyboardView kv;
+    private KeyboardView cKeyBoardView;
     private Keyboard keyboard;
 
     private boolean caps = false;
     private KeyboardView mInputView;
 
 
+
+
+
+
     @Override
     public View onCreateInputView() {
-        kv = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard, null);
+        cKeyBoardView = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard, null);
         keyboard = new Keyboard(this, R.xml.arabic);
-        kv.setKeyboard(keyboard);
-        kv.setOnKeyboardActionListener(this);
-        return kv;
+        cKeyBoardView.setOnKeyboardActionListener(this);
+        return cKeyBoardView;
     }
 
 
@@ -46,16 +49,19 @@ public class MyKeyboard extends InputMethodService
     @Override
     public void onKey(int primaryCode, int[] keyCodes) {
 
-        InputConnection ic = getCurrentInputConnection();
+      /* InputConnection ic = getCurrentInputConnection();
+
+        int cKeyboardState = R.integer.keyboard_qwerty;
+
 
         switch (primaryCode){
-            case Keyboard.KEYCODE_DELETE:
+            case Keyboard.KEYCODE_ALT:
                 ic.deleteSurroundingText(1, 0);
                 break;
             case Keyboard.KEYCODE_SHIFT:
                 caps = !caps;
                 keyboard.setShifted(caps);
-                kv.invalidateAllKeys();
+                cKeyBoardView.invalidateAllKeys();
                 break;
             case Keyboard.KEYCODE_DONE:
                 ic.sendKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN, KeyEvent.KEYCODE_ENTER));
@@ -66,6 +72,13 @@ public class MyKeyboard extends InputMethodService
                     code = Character.toUpperCase(code);
                 }
                 ic.commitText(String.valueOf(code), 1);
+        }
+
+
+*/
+        if( primaryCode == Keyboard.KEYCODE_DELETE ) {
+            keyboard = new Keyboard(this, R.integer.keyboard_arabic);
+            cKeyBoardView.setKeyboard(keyboard);
         }
     }
 
