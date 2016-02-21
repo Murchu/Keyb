@@ -3,14 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <Row android:rowEdgeFlags="top">
-        <Key android:codes="-2" android:keyLabel="العربية" android:keyWidth="33%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="-6" android:keyLabel="English" android:keyWidth="33%p" />
-        <Key android:codes="-4" android:keyLabel="עִברִית" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
-    </Row>
-
     // Number Row
-    <Row>
+    <Row >
         <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
         <Key android:codes="50" android:keyLabel="2"  android:popupKeyboard="@xml/popup_qwerty_e"/> />
         <Key android:codes="51" android:keyLabel="3"/>
@@ -24,9 +18,9 @@
      </Row>
 
 
-    <Row android:keyWidth="10.000002%p" >
+    <Row   android:keyboardMode="@integer/keyboard_normal"  android:keyWidth="10.000002%p" >
         <Key android:codes="1590" android:popupCharacters="ًٌٍَُِّْ" android:keyEdgeFlags="left" android:keyLabel="ض" />
-        <Key android:codes="1589"  android:popupCharacters="xxx" android:keyLabel="ص" />
+        <Key android:codes="1589" android:popupCharacters="xxx" android:keyLabel="ص" />
         <Key android:codes="1602" android:keyLabel="ق" />
         <Key android:codes="1601" android:keyLabel="ف" />
         <Key android:codes="1594" android:keyLabel="غ" />
@@ -38,8 +32,7 @@
     </Row>
 
 
-
-    <Row android:keyWidth="10.000002%p">
+    <Row  android:keyboardMode="@integer/keyboard_normal" android:keyWidth="10.000002%p">
         <Key android:codes="1588" android:keyEdgeFlags="left" android:keyLabel="ش" />
         <Key android:codes="1587" android:keyLabel="س" />
         <Key android:codes="1610" android:popupCharacters="ىئ" android:keyLabel="ي" />
@@ -53,7 +46,7 @@
     </Row>
 
 
-    <Row android:keyWidth="10.000002%p">
+    <Row  android:keyboardMode="@integer/keyboard_normal" android:keyWidth="10.000002%p">
         <Key android:codes="1592" android:popupCharacters="؟،؛"  android:keyLabel="ظ" />
         <Key android:codes="1591" android:keyLabel="ط" />
         <Key android:codes="1584" android:keyLabel="ذ" />
@@ -70,7 +63,7 @@
         <Key android:codes="47" android:keyLabel="/" android:keyWidth="10%p" />
         <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true"/>
         <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true"/>
-        <Key android:codes="-4" android:keyLabel="@string/dummy_button" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="-2" android:keyLabel="@string/dummy_button" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
     </Row>
 
 </Keyboard>
