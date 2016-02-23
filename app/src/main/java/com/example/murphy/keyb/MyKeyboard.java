@@ -49,9 +49,9 @@ public class MyKeyboard extends InputMethodService
             case Keyboard.KEYCODE_ALT:
                 switchKeyboard(R.xml.qwerty);
                 break;
-           // case Keyboard.KEYCODE_MODE_CHANGE:
-           //     switchKeyboard(R.xml.hebrew);
-            //    break;
+             case Keyboard.KEYCODE_CANCEL:
+               switchKeyboard(R.xml.hebrew);
+                 break;
             case Keyboard.KEYCODE_DELETE:
                 ic.deleteSurroundingText(1, 0);
                 break;
