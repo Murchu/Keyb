@@ -7,6 +7,7 @@
     android:keyPreviewLayout="@layout/preview"
     android:keyTextColor="@color/keyText"
     android:keyPreviewHeight="@dimen/preview_height"
-    android:keyBackground="@drawable/normal">
+    android:keyBackground="@drawable/normal"
+    android:gravity="center_horizontal">
 
 </android.inputmethodservice.KeyboardView>

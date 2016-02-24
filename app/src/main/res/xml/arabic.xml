@@ -53,7 +53,7 @@
 
 
     <Row  android:keyWidth="10.000002%p">
-        <Key android:codes="1592" android:popupCharacters="؟،؛"  android:keyLabel="ظ" />
+        <Key android:codes="1592"  android:horizontalGap="5%" android:popupCharacters="؟،؛"  android:keyLabel="ظ" />
         <Key android:codes="1591" android:keyLabel="ط" />
         <Key android:codes="1584" android:keyLabel="ذ" />
         <Key android:codes="1583" android:keyLabel="د" />

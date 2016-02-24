@@ -5,5 +5,6 @@
     android:gravity="center_horizontal"
     android:background="#300026ff"
     android:textStyle="normal"
-    android:textSize="30sp" >
+    android:textSize="30sp"
+    android:layout_gravity="center">
 </TextView>
