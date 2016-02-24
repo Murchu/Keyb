@@ -11,17 +11,17 @@
 
     // Number Row
     <Row >
-        <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
-        <Key android:codes="50" android:keyLabel="2"  android:popupKeyboard="@xml/popup_qwerty_e"/> />
-        <Key android:codes="51" android:keyLabel="3" />
-        <Key android:codes="52" android:keyLabel="4"/>
-        <Key android:codes="53" android:keyLabel="5"/>
-        <Key android:codes="54" android:keyLabel="6"/>
-        <Key android:codes="55" android:keyLabel="7"/>
-        <Key android:codes="56" android:keyLabel="8"/>
-        <Key android:codes="57" android:keyLabel="9"/>
-        <Key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right"/>
-     </Row>
+        <Key android:codes="1633" android:keyLabel="١" android:keyEdgeFlags="left"/>
+        <Key android:codes="1634" android:keyLabel="٢"  android:popupKeyboard="@xml/popup_qwerty_e"/> />
+        <Key android:codes="1635" android:keyLabel="٣" />
+        <Key android:codes="1636" android:keyLabel="٤"/>
+        <Key android:codes="1637" android:keyLabel="٥"/>
+        <Key android:codes="1638" android:keyLabel="٦"/>
+        <Key android:codes="1639" android:keyLabel="٧"/>
+        <Key android:codes="1640" android:keyLabel="٨"/>
+        <Key android:codes="1641" android:keyLabel="٩"/>
+        <Key android:codes="1632" android:keyLabel="٠" android:keyEdgeFlags="right"/>
+    </Row>
 
 
     <Row android:keyWidth="10.000002%p" >
