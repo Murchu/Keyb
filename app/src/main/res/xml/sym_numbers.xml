@@ -35,8 +35,8 @@
 
 
     <Row>
-        <Key android:codes="-21" android:keyLabel="{>]"  android:keyEdgeFlags="left"/>
-        <Key android:codes="39" android:keyLabel="'"/>
+        <Key android:codes="-8" android:keyLabel="{>]"  android:keyEdgeFlags="left"/>
+        <Key android:codes="39" android:keyLabel="&apos;"/>
         <Key android:codes="58" android:keyLabel=":"/>
         <Key android:codes="37" android:keyLabel="%"/>
         <Key android:codes="47" android:keyLabel="/"/>
@@ -48,12 +48,12 @@
 
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="-6" android:keyLabel="abc" android:keyWidth="10%p" android:horizontalGap="1%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="44" android:keyLabel="\'" android:keyWidth="10%p" />
+        <Key android:codes="34" android:keyLabel="&quot;" android:keyWidth="10%p" />
         <Key android:codes="32" android:keyIcon="@drawable/space" android:keyWidth="20%p"  android:horizontalGap="2%p" android:isRepeatable="true"/>
-        <Key android:codes="46" android:keyLabel="*"  android:horizontalGap="1%p" />
+        <Key android:codes="42" android:keyLabel="*"  android:horizontalGap="1%p" />
         <Key android:codes="46" android:keyLabel=","/>
-        <Key android:codes="46" android:keyLabel="0"/>
-        <Key android:codes="46" android:keyLabel="."/>
+        <Key android:codes="48" android:keyLabel="0"/>
+        <Key android:codes="44" android:keyLabel=","/>
         <Key android:codes="-4" android:keyIcon="@drawable/search"  android:keyWidth="10%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

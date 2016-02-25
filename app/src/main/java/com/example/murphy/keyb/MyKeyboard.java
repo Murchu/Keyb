@@ -17,7 +17,7 @@ public class MyKeyboard extends InputMethodService
     private KeyboardView kv;
     private Keyboard keyboard;
     private static final int KEYCODE_SYM = -7;
-    private static final int KEYCODE_MORE_SYM = -21;
+    private static final int KEYCODE_MORE_SYM = -8;
     private boolean caps = false;
 
 
