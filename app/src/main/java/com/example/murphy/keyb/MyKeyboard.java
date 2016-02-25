@@ -57,6 +57,7 @@ public class MyKeyboard extends InputMethodService
                  break;
             case MyKeyboard.KEYCODE_MORE_SYM:
                 switchKeyboard(R.xml.more_symbols);
+                break;
             case Keyboard.KEYCODE_DELETE:
                 ic.deleteSurroundingText(1, 0);
                 break;
