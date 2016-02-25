@@ -22,7 +22,7 @@
     </Row>
 
     <Row>
-        <Key android:codes="8594" android:keyLabel="→" android:keyEdgeFlags="left"/>
+        <Key android:codes="37" android:keyLabel="&amp;" android:keyEdgeFlags="left"/>
         <Key android:codes="91" android:keyLabel="["/>
         <Key android:codes="93" android:keyLabel="]"/>
         <Key android:codes="123" android:keyLabel="{"/>
@@ -35,25 +35,24 @@
 
 
     <Row>
-        <Key android:codes="-7" android:keyIcon="@drawable/123"  android:keyEdgeFlags="left"/>
-        <Key android:codes="119" android:keyLabel="'"/>
-        <Key android:codes="114" android:keyLabel=":"/>
-        <Key android:codes="116" android:keyLabel="%"/>
-        <Key android:codes="121" android:keyLabel="/"/>
-        <Key android:codes="117" android:keyLabel="7"/>
-        <Key android:codes="105" android:keyLabel="8"/>
-        <Key android:codes="111" android:keyLabel="9"/>
+        <Key android:codes="-7" android:keyIcon="@drawable/numbers_symbols"  android:keyEdgeFlags="left"/>
+        <Key android:codes="39" android:keyLabel="&apos;"/>
+        <Key android:codes="59" android:keyLabel=";"/>
+        <Key android:codes="247" android:keyLabel="÷"/>
+        <Key android:codes="92" android:keyLabel="\"/>
+        <Key android:codes="124" android:keyLabel="|"/>
+        <Key android:codes="189" android:keyLabel="½"/>
+        <Key android:codes="172" android:keyLabel="¬"/>
         <Key android:codes="-5" android:keyIcon="@drawable/delete" android:keyWidth="12%p" android:isRepeatable="true"  android:keyEdgeFlags="right" />
     </Row>
 
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="-6" android:keyLabel="abc" android:keyWidth="10%p" android:horizontalGap="1%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="44" android:keyLabel="\'" android:keyWidth="10%p" />
-        <Key android:codes="32" android:keyIcon="@drawable/space" android:keyWidth="20%p"  android:horizontalGap="2%p" android:isRepeatable="true"/>
-        <Key android:codes="46" android:keyLabel="*"  android:horizontalGap="1%p" />
-        <Key android:codes="46" android:keyLabel=","/>
-        <Key android:codes="46" android:keyLabel="0"/>
-        <Key android:codes="46" android:keyLabel="."/>
+        <Key android:codes="-6" android:keyIcon="@drawable/letters" android:keyWidth="10%p" android:horizontalGap="1%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="32" android:keyIcon="@drawable/space" android:keyWidth="30%p"  android:horizontalGap="2%p" android:isRepeatable="true"/>
+        <Key android:codes="215" android:keyLabel="×"  android:horizontalGap="1%p" />
+        <Key android:codes="167" android:keyLabel="§"/>
+        <Key android:codes="8226" android:keyLabel="•"/>
+        <Key android:codes="8597" android:keyLabel="↕"/>
         <Key android:codes="-4" android:keyIcon="@drawable/search"  android:keyWidth="10%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

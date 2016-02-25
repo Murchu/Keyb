@@ -59,7 +59,7 @@
         <Key android:codes="-5" android:keyIcon="@drawable/delete" android:keyWidth="15%p" android:isRepeatable="true"  android:keyEdgeFlags="right" />
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="-7" android:keyLabel="123" android:keyWidth="10%p" android:horizontalGap="3%"  android:keyEdgeFlags="left"/>
+        <Key android:codes="-7" android:keyIcon="@drawable/numbers_symbols" android:keyWidth="10%p" android:horizontalGap="3%"  android:keyEdgeFlags="left"/>
          <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p" />
         <Key android:codes="32" android:keyIcon="@drawable/space" android:keyWidth="50%p" android:isRepeatable="true"/>
         <Key android:codes="46" android:keyLabel="."/>

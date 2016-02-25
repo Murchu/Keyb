@@ -35,7 +35,7 @@
 
 
     <Row>
-        <Key android:codes="-8" android:keyLabel="{>]"  android:keyEdgeFlags="left"/>
+        <Key android:codes="-8" android:keyLabel="{ > ]"  android:keyEdgeFlags="left"/>
         <Key android:codes="39" android:keyLabel="&apos;"/>
         <Key android:codes="58" android:keyLabel=":"/>
         <Key android:codes="37" android:keyLabel="%"/>
@@ -47,7 +47,7 @@
     </Row>
 
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="-6" android:keyLabel="abc" android:keyWidth="10%p" android:horizontalGap="1%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="-6" android:keyIcon="@drawable/letters" android:keyWidth="10%p" android:horizontalGap="1%p"  android:keyEdgeFlags="left"/>
         <Key android:codes="34" android:keyLabel="&quot;" android:keyWidth="10%p" />
         <Key android:codes="32" android:keyIcon="@drawable/space" android:keyWidth="20%p"  android:horizontalGap="2%p" android:isRepeatable="true"/>
         <Key android:codes="42" android:keyLabel="*"  android:horizontalGap="1%p" />
