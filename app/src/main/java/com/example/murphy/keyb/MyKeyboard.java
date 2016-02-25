@@ -16,7 +16,7 @@ public class MyKeyboard extends InputMethodService
 
     private KeyboardView kv;
     private Keyboard keyboard;
-    private static final int KEYCODE_SYM = -7;
+    private static final int KEYCODE_SYM_NUM = -7;
     private static final int KEYCODE_MORE_SYM = -8;
     private boolean caps = false;
 
@@ -52,7 +52,7 @@ public class MyKeyboard extends InputMethodService
              case Keyboard.KEYCODE_CANCEL:
                switchKeyboard(R.xml.hebrew);
                  break;
-            case MyKeyboard.KEYCODE_SYM:
+            case MyKeyboard.KEYCODE_SYM_NUM:
                  switchKeyboard(R.xml.sym_numbers);
                  break;
             case MyKeyboard.KEYCODE_MORE_SYM:
