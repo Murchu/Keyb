@@ -17,8 +17,8 @@ public class MyKeyboard extends InputMethodService
     private KeyboardView kv;
     private Keyboard keyboard;
     private static final int KEYCODE_SYM = -7;
+    private static final int KEYCODE_MORE_SYM = -8''
     private boolean caps = false;
-    private KeyboardView mInputView;
 
 
     @Override
@@ -53,8 +53,10 @@ public class MyKeyboard extends InputMethodService
                switchKeyboard(R.xml.hebrew);
                  break;
             case MyKeyboard.KEYCODE_SYM:
-                 switchKeyboard(R.xml.simple_numbers);
+                 switchKeyboard(R.xml.sym_numbers);
                  break;
+            case MyKeyboard.KEYCODE_MORE_SYM:
+                switchKeyboard(R.xml.more_symbols);
             case Keyboard.KEYCODE_DELETE:
                 ic.deleteSurroundingText(1, 0);
                 break;
@@ -107,4 +109,6 @@ public class MyKeyboard extends InputMethodService
     public void swipeUp() {
 
     }
+
+
 }
