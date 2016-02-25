@@ -22,7 +22,7 @@
     </Row>
 
     <Row>
-        <Key android:codes="37" android:keyLabel="&amp;" android:keyEdgeFlags="left"/>
+        <Key android:codes="38" android:keyLabel="&amp;" android:keyEdgeFlags="left"/>
         <Key android:codes="91" android:keyLabel="["/>
         <Key android:codes="93" android:keyLabel="]"/>
         <Key android:codes="123" android:keyLabel="{"/>
@@ -35,11 +35,11 @@
 
 
     <Row>
-        <Key android:codes="-7" android:keyIcon="@drawable/numbers_symbols"  android:keyEdgeFlags="left"/>
+        <Key android:codes="-7" android:keyIcon="@drawable/numbers_symbols" android:horizontalGap=".5%p" android:keyEdgeFlags="left"/>
         <Key android:codes="39" android:keyLabel="&apos;"/>
         <Key android:codes="59" android:keyLabel=";"/>
         <Key android:codes="247" android:keyLabel="÷"/>
-        <Key android:codes="92" android:keyLabel="\"/>
+        <Key android:codes="92" android:keyLabel="\\"/>
         <Key android:codes="124" android:keyLabel="|"/>
         <Key android:codes="189" android:keyLabel="½"/>
         <Key android:codes="172" android:keyLabel="¬"/>
