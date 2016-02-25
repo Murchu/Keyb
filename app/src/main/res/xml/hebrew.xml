@@ -9,18 +9,17 @@
         <Key android:codes="-6" android:keyLabel="English" android:keyWidth="33%p" />
         <Key android:codes="-3" android:keyLabel="עִברִית" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
     </Row>
-<Row>
-    <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
-    <Key android:codes="50" android:keyLabel="2"/>
-    <Key android:codes="51" android:keyLabel="3"/>
-    <Key android:codes="52" android:keyLabel="4"/>
-    <Key android:codes="53" android:keyLabel="5"/>
-    <Key android:codes="54" android:keyLabel="6"/>
-    <Key android:codes="55" android:keyLabel="7"/>
-    <Key android:codes="56" android:keyLabel="8"/>
-    <Key android:codes="57" android:keyLabel="9"/>
-    <Key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right"/>
-</Row>
+    <Row>
+        <Key android:codes="05D0" android:keyLabel="א" android:keyEdgeFlags="left"/>
+        <Key android:codes="05D1" android:keyLabel="ב"/>
+        <Key android:codes="05D2" android:keyLabel="ג"/>
+        <Key android:codes="05D3" android:keyLabel="ד"/>
+        <Key android:codes="05D4" android:keyLabel="ה"/>
+        <Key android:codes="05D5" android:keyLabel="ו"/>
+        <Key android:codes="05D6" android:keyLabel="ז"/>
+        <Key android:codes="05D7" android:keyLabel="ח"/>
+        <Key android:codes="05D8" android:keyLabel="ט" android:keyEdgeFlags="right"/>
+    </Row>
     <Row>
         <Key android:codes='0x05E5' android:keyLabel="ץ" android:keyEdgeFlags="left"/>
         <Key android:codes="0x05E7" android:keyLabel="ק"/>
@@ -56,11 +55,13 @@
         <Key android:codes="0x05EA" android:keyLabel="ת" android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="47" android:keyLabel="/" android:keyWidth="10%p" />
-        <Key android:codes="32" android:keyIcon="@drawable/space" android:keyWidth="40%p" android:isRepeatable="true"/>
-        <Key android:codes="-5" android:keyIcon="@drawable/delete" android:keyWidth="20%p" android:isRepeatable="true"/>
-        <Key android:codes="-4" android:keyIcon="@drawable/search"  android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="-7" android:keyIcon="@drawable/numbers_symbols" android:keyWidth="10%p" android:horizontalGap="4%"  android:keyEdgeFlags="left"/>
+        <Key android:codes="63" android:keyLabel="\?" />
+        <Key android:codes="44" android:keyLabel="," />
+        <Key android:codes="32" android:keyIcon="@drawable/space" android:keyWidth="30%p" android:isRepeatable="true"/>
+        <Key android:codes="46" android:keyLabel="."/>
+        <Key android:codes="39" android:keyLabel="&apos;" />
+        <Key android:codes="-4" android:keyIcon="@drawable/search" android:keyWidth="15%p" android:keyEdgeFlags="right"/>
     </Row>
 
 </Keyboard>
