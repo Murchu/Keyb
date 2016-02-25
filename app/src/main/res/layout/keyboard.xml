@@ -8,11 +8,7 @@
     android:background="#303030"
     android:keyTextColor="@color/keyText"
     android:keyPreviewHeight="@dimen/preview_height"
-    android:keyBackground="@color/keyBack"
-
-
-
-    >
+    android:keyBackground="@color/keyBack" >
 
 
 </android.inputmethodservice.KeyboardView>
