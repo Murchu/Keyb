@@ -13,7 +13,7 @@
         <Key android:codes="35" android:keyLabel="\#" android:keyEdgeFlags="left"/>
         <Key android:codes="8364" android:keyLabel="€"  android:popupKeyboard="@xml/popup_qwerty_e"/>
         <Key android:codes="65020" android:keyLabel="﷼"/>
-        <Key android:codes="36" android:keyLabel="$"/>
+        <Key android:codes="8362" android:keyLabel="₪"/>
         <Key android:codes="45" android:keyLabel="-"/>
         <Key android:codes="49" android:keyLabel="1" />
         <Key android:codes="50" android:keyLabel="2" />
