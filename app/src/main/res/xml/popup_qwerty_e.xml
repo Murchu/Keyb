@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyBackground="@color/keyBack"  android:keyPreviewLayout="@layout/preview" android:keyTextColor="@color/keyText" >
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <Row>
         <Key android:codes="0x05D3" android:keyLabel="ר" android:keyEdgeFlags="left"/>
         <Key android:codes="0x05D0" android:keyLabel="א"/>
