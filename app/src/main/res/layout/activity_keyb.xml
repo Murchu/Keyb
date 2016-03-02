@@ -2,29 +2,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
+    android:background="#379c9a"
     tools:context="com.example.murphy.keyb.Keyb">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
          TextureView, etc. -->
     <TextView
-        android:id="@+id/fullscreen_content"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:keepScreenOn="true"
-        android:text="@string/dummy_content"
-        android:textColor="#33b5e5"
-        android:textSize="50sp"
-        android:textStyle="normal" />
+    android:id="@+id/fullscreen_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ />
+
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
+
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyPreviewOffset="12dp"
+        android:keyPreviewLayout="@layout/preview"
+        android:visibility="visible" />
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fitsSystemWindows="true">
+        android:fitsSystemWindows="true"
+        android:layout_gravity="center_horizontal|bottom">
 
         <LinearLayout
             android:id="@+id/fullscreen_content_controls"
@@ -44,17 +53,45 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|bottom" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Keyboard"
+            android:id="@+id/button"
+            android:layout_gravity="bottom|center"
+            android:backgroundTint="#f4eded"
+            android:clickable="true"
+            android:drawableTint="#f1e5e5"
+            android:textColor="#2a706b"
+            android:layout_marginBottom="250sp" />
+
+        <ImageView
+            android:layout_width="184dp"
+            android:layout_height="184dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal|top"
+            android:src="@drawable/keyb"
+            android:paddingTop="40dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal|top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/details"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal|bottom"
+            android:textColor="#ffffff"
+            android:paddingBottom="24dp" />
+
+
     </FrameLayout>
-
-
-    <android.inputmethodservice.KeyboardView
-        android:id="@+id/keyboard"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
-        android:keyPreviewOffset="12dp"
-        android:keyPreviewLayout="@layout/preview"
-        android:visibility="visible" />
 
 </FrameLayout>

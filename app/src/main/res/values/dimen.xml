@@ -6,4 +6,5 @@
     <dimen name="candidate_vertical_padding">6sp</dimen>
     <dimen name="preview_height">60sp</dimen>
     <dimen name="preview_width">60sp</dimen>
+    <dimen name="UI_button_height">100sp</dimen>
 </resources>

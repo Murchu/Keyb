@@ -2,5 +2,11 @@
     <string name="app_name">Keyb</string>
     <string name="dummy_content">FINAL YEAR\nPROJECT</string>
     <string name="sybtype_en_US">Keyb</string>
+
     <string name="my_keyboard">English / Arabic / Hebrew</string>
+    <string name="keyb">KeyB</string>
+    <string name="arabic">العربية</string>
+    <string name="hebrew">עִברִית</string>
+
+    <string name ="details">murphy 2016</string>>
 </resources>
