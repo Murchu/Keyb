@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="0618" android:keyLabel="ـَ" android:keyEdgeFlags="left"/> // Fatha
+        <Key android:codes="064F" android:keyLabel="ـُ"/> // damma
+        <Key android:codes="061A" android:keyLabel="ـِ"/> // Kasrah
+        <Key android:codes="0651" android:keyLabel="ـّـ"/> // Shadda
+        <Key android:codes="u+06E1" android:keyLabel="ـْـ"  android:keyEdgeFlags="right"/> // Sukun
+    </Row>
+</Keyboard>

@@ -4,12 +4,16 @@ package com.example.murphy.keyb;
  * Created by murphy on 26/11/2015.
  */
 
+import android.content.Context;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
 import android.view.KeyEvent;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
+import android.widget.FrameLayout;
+import android.widget.PopupWindow;
 
 public class MyKeyboard extends InputMethodService
         implements KeyboardView.OnKeyboardActionListener{
@@ -19,6 +23,8 @@ public class MyKeyboard extends InputMethodService
     private static final int KEYCODE_SYM_NUM = -7;
     private static final int KEYCODE_MORE_SYM = -8;
     private boolean caps = false;
+
+
 
 
     @Override

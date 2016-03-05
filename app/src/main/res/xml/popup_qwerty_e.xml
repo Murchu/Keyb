@@ -6,10 +6,8 @@
         <Key android:codes="0x05D3" android:keyLabel="ר" android:keyEdgeFlags="left"/>
         <Key android:codes="0x05D0" android:keyLabel="א"/>
         <Key android:codes="0x05D8" android:keyLabel="ט"/>
-        <Key android:codes="0x05D9" android:keyLabel="י" android:keyEdgeFlags="right"/>
-    </Row>
-    <Row>
-        <Key android:codes="0x05D3" android:keyLabel="ר" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x05D9" android:keyLabel="י" />
+        <Key android:codes="0x05D3" android:keyLabel="ר"/>
         <Key android:codes="0x05D0" android:keyLabel="א"/>
         <Key android:codes="0x05D8" android:keyLabel="ט"/>
         <Key android:codes="0x05D9" android:keyLabel="י" android:keyEdgeFlags="right"/>
