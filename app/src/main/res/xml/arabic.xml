@@ -58,7 +58,7 @@
         <Key android:codes="1584" android:keyLabel="ذ" />
         <Key android:codes="1583" android:keyLabel="د" />
         <Key android:codes="1586" android:keyLabel="ز" />
-        <Key android:codes="1585" android:keyLabel="ر" />
+        <Key android:codes="1585" android:popupKeyboard="@xml/popup_arabic_lam" android:keyLabel="ر" />
         <Key android:codes="1608" android:keyLabel="و" />
         <Key android:codes="1577" android:keyLabel="ة" />
         <Key android:codes="1579" android:keyLabel="ث" />
