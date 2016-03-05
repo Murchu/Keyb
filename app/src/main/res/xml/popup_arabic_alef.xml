@@ -3,6 +3,9 @@
 <Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <Row>
-        <Key android:codes="1700" android:keyLabel="ڤ" android:keyEdgeFlags="left"/>
+        <Key android:codes="1753" android:keyLabel="إ" android:keyEdgeFlags="left"/>
+        <Key android:codes="1751" android:keyLabel="أ"/>
+        <Key android:codes="1750" android:keyLabel="آ"/>
+        <Key android:codes="1569" android:keyLabel="ء"/>
     </Row>
 </Keyboard>

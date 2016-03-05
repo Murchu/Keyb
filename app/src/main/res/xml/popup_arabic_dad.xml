@@ -7,6 +7,6 @@
         <Key android:codes="064F" android:keyLabel="ـُ"/> // damma
         <Key android:codes="061A" android:keyLabel="ـِ"/> // Kasrah
         <Key android:codes="0651" android:keyLabel="ـّـ"/> // Shadda
-        <Key android:codes="u+06E1" android:keyLabel="ـْـ"  android:keyEdgeFlags="right"/> // Sukun
+        <Key android:codes="0x1618" android:keyLabel="ـْـ"  android:keyEdgeFlags="right"/> // Sukun
     </Row>
 </Keyboard>
