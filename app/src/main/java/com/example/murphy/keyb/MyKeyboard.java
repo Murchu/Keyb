@@ -1,7 +1,13 @@
 package com.example.murphy.keyb;
 
 /**
- * Created by murphy on 26/11/2015.
+ * <h1>Android Arabic / Hebrew / English Keyboard</h1>
+ *
+ * Final Year Computer Science project
+ *
+ * @author  Colm Murphy 112713751
+ * @version 1.0
+ * @since   2016-04-07
  */
 
 import android.content.Context;
@@ -26,8 +32,11 @@ public class MyKeyboard extends InputMethodService
     private boolean caps = false;
 
 
-
-
+    /**
+     * Create the Input view
+     *
+     * @return kv the Keyboard view object
+     */
     @Override
     public View onCreateInputView() {
         kv = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard, null);
@@ -45,6 +54,14 @@ public class MyKeyboard extends InputMethodService
 
     }
 
+    /**
+     * Listens for the key press.
+     * Listens for the key press and
+     * delegates the appropriate action.
+     *
+     * @param primaryCode
+     * @param keyCodes
+     */
     @Override
     public void onKey(int primaryCode, int[] keyCodes) {
         InputConnection ic = getCurrentInputConnection();
@@ -87,11 +104,18 @@ public class MyKeyboard extends InputMethodService
 
     }
 
+    /**
+     * Switches the Keyboard.
+     * Set the keyboard to onr of the predefined xml files
+     *
+     * @param keyboardRes
+     */
     private void switchKeyboard(int keyboardRes) {
         keyboard = new Keyboard(this, keyboardRes);
         kv.setKeyboard(keyboard);
         kv.setOnKeyboardActionListener(this);
     }
+
 
     @Override
     public void onText(CharSequence text) {
