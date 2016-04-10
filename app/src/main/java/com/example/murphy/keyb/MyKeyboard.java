@@ -35,7 +35,7 @@ public class MyKeyboard extends InputMethodService
     /**
      * Create the Input view
      *
-     * @return kv the Keyboard view object
+     * @return kv, the Keyboard view object
      */
     @Override
     public View onCreateInputView() {
@@ -116,7 +116,11 @@ public class MyKeyboard extends InputMethodService
         kv.setOnKeyboardActionListener(this);
     }
 
-
+    /**
+    * All the remaining methods in this class are
+    * not used. They are included for adding
+    * extra functionality in the future
+    */
     @Override
     public void onText(CharSequence text) {
 
