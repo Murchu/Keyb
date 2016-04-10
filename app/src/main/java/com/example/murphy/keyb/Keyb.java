@@ -1,4 +1,16 @@
+/**
+ * <h1>Android Arabic / Hebrew / English Keyboard</h1>
+ *
+ * Final Year Computer Science project
+ * This Class was provided by Android
+ *
+ * @author  Colm Murphy 112713751
+ * @version 1.0
+ * @since   2016-04-07
+ *
+ */
 package com.example.murphy.keyb;
+
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -9,6 +21,7 @@ import android.text.format.DateUtils;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 
 /**
  * full-screen activity that shows and hides the system UI (i.e.
@@ -142,6 +155,10 @@ public class Keyb extends AppCompatActivity {
         mHideHandler.postDelayed(mHidePart2Runnable, UI_ANIMATION_DELAY);
     }
 
+
+
+
+
     @SuppressLint("InlinedApi")
     private void show() {
         // Show the system bar
@@ -185,7 +202,7 @@ public class Keyb extends AppCompatActivity {
                     operation.operation();
                     return true;
                 } catch (OutOfMemoryError e) {
-                    Log.w(TAG, "WOW! No memory for operation... I'll try to release some.");
+                    Log.w(TAG, "No memory, attempt to release some ");
                     retry = tryGCOrWait(TAG, e);
                     if (!retry && failWithException) throw e;
                 }
